@@ -31,7 +31,7 @@ class _HomepageState extends State<Homepage> {
           Wrap(
             alignment: WrapAlignment.center, 
             children: <Widget>[
-                  _buildCategoryItem("Awesome Projets", "projects","/repos"),
+                  _buildCategoryItem("Awesome Projects", "projects","/repos"),
                   _buildCategoryItem("Great Developers", "developers", "/profiles"),
                   _buildCategoryItem("Flutter Reddit News", "news", "/news"),
                   _buildCategoryItem("Learning Resources", "learning", "/youtube"),
